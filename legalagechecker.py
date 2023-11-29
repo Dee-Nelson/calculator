@@ -13,9 +13,13 @@ def getage():
 
 
         if age > 18:
-            increment = age - 18
+            increment = age + 18
             print('you are good to go')
             print(f'you are {age} years old ,you have been an adult for {increment} years :)')
+
+
+print(':-))
+
 
 def identity():
     adult = input('Are you an adult?y(yes) or n (no):  ')
