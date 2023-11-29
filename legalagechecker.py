@@ -22,12 +22,10 @@ def identity():
 
     if adult == 'yes':
         print('okay :-), let\'s find out')
-        findout = getage()
-        print(findout)
+        print(getage())
 
     elif adult == 'no':
-        findout = getage()
-        print(findout)
+        print(getage())
 
 
 identity()
